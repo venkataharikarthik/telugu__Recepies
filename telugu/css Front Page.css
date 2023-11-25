@@ -1,0 +1,68 @@
+body {
+    background-color:black
+}
+h2
+{
+    color: red;
+}
+h4{
+    color: white;
+}
+
+h1
+{
+    color: blue;
+   
+   }
+   
+    ul{}
+         a
+   {
+    color: blue
+    ;
+   }
+   h1{
+    text-align: center;
+   }
+   div
+   { .scroll-text {
+    width: 580px; /* Adjust width as needed */
+    height: 50px; /* Adjust height as needed */
+    overflow: hidden;
+    border: 1px solid #ccc;
+}
+
+.scroll-text p {
+    white-space: nowrap;
+    position: absolute;
+    top: 0;
+    left: 100%;
+    animation: scroll 10s linear infinite;
+}
+
+@keyframes scroll {
+    100%{
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateY(-100%);
+    }
+}
+h2{
+    text-align: left;
+}
+ } 
+  form
+  {
+    text-align: center;
+  }
+  h3{
+    color: white;
+  }
+  button
+  {
+    width: 100px;
+height:40px ;
+font-size: 16px;
+button-align: center;
+}
